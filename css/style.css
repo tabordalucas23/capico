@@ -1,0 +1,428 @@
+/*Fuentes*/
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Pacifico&display=swap');
+/*Margenes*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Header*/
+header {
+    background-color: #2F0A28;
+    padding-left: 18px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+    z-index: 10;
+
+}
+
+header h1 {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+header h1 a {
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    font-size: 75px;
+    font-weight: 400px;
+    color: white;
+    text-shadow: 0 0 5px rgb(255, 0, 106), 0 0 30px rgb(255, 0, 106), 0 0 50px rgb(255, 0, 106);
+
+}
+
+header div nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header div nav ul li {
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+    margin: 5px;
+    padding-right: 20px;
+    margin-top: 0px;
+    margin-right: 0px;
+
+}
+
+.boton-inicio {
+    padding-left: 10px;
+}
+
+header div {
+    background-color: #0000008a;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    margin-top: 15px;
+    width: 100%;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #e06599;
+    text-shadow: 0 0 5px rgb(255, 0, 106);
+
+
+}
+
+
+/*MAIN*/
+body {
+    background-color: #D0A5C0;
+}
+
+.cuadro-uno {
+    max-width: 1000px;
+    width: 100%;
+    height: 350px;
+    background-color: #ff6bdf;
+    border: 1px solid rgb(255, 0, 234);
+    box-shadow: 0 0 5px #000000;
+    margin-top: 100px;
+
+}
+
+.h2-cuadrado-uno {
+    position: absolute;
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    padding: 100px;
+    margin: 100px;
+    margin-bottom: 45px;
+    color: #000000;
+    text-shadow: 0 0 5px rgb(255, 0, 106), 0 0 30px rgb(255, 0, 106), 0 0 50px rgb(255, 0, 106);
+    z-index: 1;
+}
+
+
+.boton-compra {
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    background-color: #000000;
+    box-shadow: 0 0 5px rgb(255, 255, 255), 0 0 15px rgb(255, 255, 255), 0 0 15px rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 15px;
+    order: 2;
+}
+
+
+.boton-compra:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.hero img {
+    width: 90%;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.hero-texto h3 span {
+
+    color: #ffffff;
+    text-shadow: #ff00ea 5px 5px 5px;
+}
+
+.hero-texto h3 {
+    background-color: #92247e;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-full {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../img/mesa-fotor-20230722142846.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.intro {
+    display: grid;
+    width: 100%;
+    ;
+    height: calc(100vh + 450px);
+    background-color: #ffaded;
+    color: #000000;
+    text-align: center;
+
+}
+
+.servicios {
+    background-color: #D0A5C0;
+
+}
+
+.servicios h2 {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    color: #cadbc0;
+    background-color: #2F0A28;
+
+}
+
+.servicios div div img {
+    width: 300px;
+    height: 300px;
+    padding: 0px;
+    border-radius: 200px;
+}
+
+
+
+.servicios div div {
+    background-color: #8800668f;
+    width: 340px;
+    height: 420px;
+    border: 2px purple solid;
+    text-align: center;
+    border-radius: 25px;
+    margin: 35px;
+
+}
+
+.servicios div div h3 {
+    font-family: 'Nunito', sans-serif;
+    color: #000000;
+    font-size: 25px;
+    margin: 5px;
+    margin-bottom: 35px;
+}
+
+.tarjetas-servicios {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.cuadro-direccion {
+    border: #000000 solid 5px;
+    border-radius: 15%;
+    background-color: #2F0A28;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.formulario-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.formulario-grid label {
+    font-weight: bold;
+}
+
+.formulario-grid select {
+    width: 100%;
+}
+
+.formulario-grid textarea {
+    width: 100%;
+    resize: vertical;
+}
+.formulario-grid input[type="submit"],
+.formulario-grid input[type="reset"] {
+    width: auto;
+    margin-top: 10px;
+}
+
+.direccion div h2{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-label{
+    color: white;
+    
+}
+
+.whatsapp img {
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    bottom: 60px;
+    right: 25px;
+}
+
+/*FOOTER*/
+.footer {
+    margin-top: 40px;
+    background-color: #130410;
+    display: flex;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div a {
+    margin: 50px;
+}
+
+footer div a img {
+    width: 45px;
+    height: 45px;
+
+}
+
+
+/*-----------------------------------------------------CONTACTO--------------------------------------------------------*/
+
+/*Main*/
+.formulario {
+    text-align: center;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------media querys----------------------*/
+@media screen and (max-width: 1050px) {
+    .tarjetas-servicios {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .h2-cuadrado-uno {
+        font-size: medium;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .cuadro-uno {
+        display: none;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .h2-cuadrado-uno {
+        position: static;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .hero-full {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero img {
+        order: 2;
+        margin-bottom: 0px;
+        margin-top: 20px;
+        width: 80%;
+        justify-content: center;
+    }
+
+    .hero {
+        justify-content: center;
+    }
+
+    .hero-texto {
+        order: 1;
+        text-align: center;
+    }
+
+    .boton-compra {
+        margin-bottom: 60px;
+    }
+
+    .intro {
+        height: calc(200vh + 20px);
+    }
+}
+
+@media screen and (max-width: 485px) {
+
+    header div nav ul {
+        width: 100%;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 700px){
+.formulario-grid{
+    grid-template-columns: 1fr; /* Cambiamos a una sola columna */
+}
+.formulario-grid label {
+font-weight: bold;
+}
+.formulario-grid select {
+width: 100%;
+}
+.formulario-grid textarea {
+width: 100%;
+resize: vertical;
+}
+.formulario-grid input[type="submit"],
+.formulario-grid input[type="reset"] {
+  width: auto;
+  margin-top: 10px;
+} 
+}
