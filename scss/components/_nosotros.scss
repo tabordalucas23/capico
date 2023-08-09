@@ -1,0 +1,127 @@
+body{
+
+    main{
+
+        .trabajadores{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: column;
+            margin: 100px;
+            h2{
+                font-family: 'Nunito', sans-serif;
+                font-size: xx-large;
+                background-color: white;
+                border: 1px solid wheat;
+                padding: 10px;
+                box-shadow: 0 0 10px black
+            }
+            }
+            .fichas-trabajadores{
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                .equipo-uno{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    background-color: rgba(141, 0, 106, 0.562);
+                    margin-bottom: 25px;
+                    padding-left: 10%;
+                    padding-right: 15%;
+                    img{
+                        width: 25%;
+                        height: 25%;
+                    }
+
+                    .equipo-uno-texto{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: center;
+                        
+                        h3{
+                            font-family: 'Nunito', sans-serif;   
+                            font-size: xx-large                    
+                        }
+
+                        p{
+                            font-family: 'Nunito', sans-serif;
+                            font-size: large;
+                        }
+
+                }
+
+            }
+
+
+            .equipo-dos{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: rgba(141, 0, 106, 0.562);
+                margin-bottom: 25px;
+                padding-left: 10%;
+                padding-right: 15%;
+                img{
+                    width: 25%;
+                    height: 25%;
+                }
+
+                .equipo-dos-texto{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    h3{
+                        font-family: 'Nunito', sans-serif;   
+                        font-size: xx-large                    
+                    }
+
+                    p{
+                        font-family: 'Nunito', sans-serif;
+                        font-size: large;
+                    }
+
+            }
+
+        }
+
+        .equipo-tres{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(141, 0, 106, 0.562);
+            margin-bottom: 25px;
+            padding-left: 10%;
+            padding-right: 15%;
+            img{
+                width: 25%;
+                height: 25%;
+            }
+
+            .equipo-tres-texto{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                h3{
+                    font-family: 'Nunito', sans-serif;   
+                    font-size: xx-large                    
+                }
+
+                p{
+                    font-family: 'Nunito', sans-serif;
+                    font-size: large;
+                }
+
+        }
+
+    }
+        }
+        
+
+    }
+
+
+}

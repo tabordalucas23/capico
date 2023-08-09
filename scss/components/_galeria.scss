@@ -1,0 +1,62 @@
+body{
+    main{
+        .galeria-titulo{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 100px;
+
+            h2{
+                font-family: 'Nunito', sans-serif;
+                font-size: xx-large;
+                background-color: white;
+                border: 1px solid wheat;
+                padding: 10px;
+                box-shadow: 0 0 10px black
+                
+            }
+        }
+
+        .galeria{
+            padding: 20px;
+            background-color: rgb(40, 0, 44);
+            width: 100%;   
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: 300px;
+            gap: 15px;
+
+            .img1{
+                grid-row: span 2;
+            }
+            .img2{
+                grid-column: span 2;
+            }
+            .img6{
+                grid-row: span 2;
+            }
+            .img10{
+                grid-column: span 2;
+            }
+            .img11{
+                grid-row: span 2;
+            }
+            div{
+
+                box-shadow: 0 0 10px white;
+
+
+                img   {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+
+
+            }
+
+        }
+
+
+    }
+}

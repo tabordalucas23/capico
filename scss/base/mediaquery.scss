@@ -1,0 +1,138 @@
+@media screen and (max-width: 1050px) {
+    .tarjetas-servicios {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .h2-cuadrado-uno {
+        font-size: medium;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .cuadro-uno {
+        display: none;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .h2-cuadrado-uno {
+        position: static;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .hero-full {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero img {
+        order: 2;
+        margin-bottom: 0px;
+        margin-top: 20px;
+        width: 80%;
+        justify-content: center;
+    }
+
+    .hero {
+        justify-content: center;
+    }
+
+    .hero-texto {
+        order: 1;
+        text-align: center;
+    }
+
+    .boton-compra {
+        margin-bottom: 60px;
+    }
+
+    .intro {
+        height: calc(200vh + 20px);
+    }
+}
+
+@media screen and (max-width: 485px) {
+
+    header div nav ul {
+        width: 100%;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 700px){
+.formulario-grid{
+    grid-template-columns: 1fr; /* Cambiamos a una sola columna */
+}
+.formulario-grid label {
+font-weight: bold;
+}
+.formulario-grid select {
+width: 100%;
+}
+.formulario-grid textarea {
+width: 100%;
+resize: vertical;
+}
+.formulario-grid input[type="submit"],
+.formulario-grid input[type="reset"] {
+  width: auto;
+  margin-top: 10px;
+} 
+}
+
+@media screen and (max-width: 950px){
+    body main .galeria{
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 260px;
+    }
+
+    body main .quienes-somos div img{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 698px) {
+main .intro .h2-cuadrado-uno{
+    display: none;
+}
+}
+
+@media screen and (max-width: 600px) {
+    main .fichas-trabajadores .equipo-uno{
+        flex-direction: column;
+        }
+        main .fichas-trabajadores .equipo-dos{
+            flex-direction: column;
+        }
+        main .fichas-trabajadores .equipo-tres{
+            flex-direction: column;
+        }
+        main .servicios .servicios-mi img{
+            display: none;
+        }
+        main .servicios .servicios-gb img{
+            display: none;
+        }
+        main .servicios .servicios-quince img{
+            display: none;
+        }
+        main .servicios .servicios-custom img{
+            display: none;
+        }
+        body main .galeria .img1{
+            display: none;
+        }
+    
+    }
+    @media screen and (max-width: 380px){
+        body main .galeria{
+            grid-template-columns: repeat(1, 1fr);
+            grid-auto-rows: 200px;
+        }
+    }

@@ -1,0 +1,135 @@
+body{
+
+    main{
+
+        .titulo-servicios{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 100px;
+            h2{
+                font-family: 'Nunito', sans-serif;
+                font-size: xx-large;
+                background-color: white;
+                border: 1px solid wheat;
+                padding: 10px;
+                box-shadow: 0 0 10px black
+            }
+        }
+        .servicios{
+
+
+            .servicios-mi{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: rgba(161, 0, 121, 0.534);
+                margin-bottom: 25px;
+                padding-left: 25px;
+                padding-right: 25px;
+                .servicios-mi-texto{
+                    display: flex;
+                    flex-direction:column;
+                    h3{
+                        font-family: 'Nunito', sans-serif;
+                        color: black;
+                    }
+                    p{
+                        font-family: 'Nunito', sans-serif;
+                        color: black;
+                    }
+
+                }
+                img{
+                    height: 25%;
+                    width: 25%;
+                }
+
+            }
+
+            .servicios-gb{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: rgba(161, 0, 121, 0.534);
+                margin-bottom: 25px;
+                padding-left: 25px;
+                padding-right: 25px;
+                .servicios-gb-texto{
+                    display: flex;
+                    flex-direction:column;
+                    h3{
+                        font-family: 'Nunito', sans-serif;
+                        color: black;
+                    }
+                    p{
+                        font-family: 'Nunito', sans-serif;
+                        color: black;
+                    }
+                }
+                img{
+                    height: 25%;
+                    width: 25%;
+                }
+
+            }
+
+            .servicios-quince{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: rgba(161, 0, 121, 0.534);
+                margin-bottom: 25px;
+                padding-left: 25px;
+                padding-right: 25px;
+                .servicios-quince-texto{
+                    display: flex;
+                    flex-direction:column;
+                    h3{
+                        font-family: 'Nunito', sans-serif;
+                        color: black;
+                    }
+                    p{
+                        font-family: 'Nunito', sans-serif;
+                        color: black;
+                    }
+                }
+                img{
+                    height: 25%;
+                    width: 25%;
+                }
+
+            }
+            .servicios-custom{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: rgba(161, 0, 121, 0.534);
+                margin-bottom: 25px;
+                padding-left: 25px;
+                padding-right: 25px;
+                .servicios-custom-texto{
+                    display: flex;
+                    flex-direction:column;
+                    h3{
+                        font-family: 'Nunito', sans-serif;
+                        color: black;
+                    }
+                    p{
+                        font-family: 'Nunito', sans-serif;
+                        color: black;
+                    }
+                }
+                img{
+                    height: 15%;
+                    width: 25%;
+                }
+
+            }
+
+        }
+
+
+    }
+}
+

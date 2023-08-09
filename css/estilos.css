@@ -1,0 +1,616 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Pacifico&display=swap");
+header {
+  background-color: #2F0A28;
+  padding-left: 18px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px;
+  z-index: 10; }
+  header h1 {
+    margin-top: 0px;
+    margin-bottom: 15px; }
+    header h1 a {
+      text-decoration: none;
+      font-family: 'Pacifico', cursive;
+      font-size: 75px;
+      font-weight: 400px;
+      color: white;
+      text-shadow: 0 0 5px #ff006a, 0 0 30px #ff006a, 0 0 50px #ff006a; }
+  header div {
+    background-color: #0000008a;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-top: 15px;
+    width: 100%; }
+    header div nav ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      header div nav ul .boton-inicio {
+        padding-left: 10px; }
+      header div nav ul li {
+        font-family: 'Nunito', sans-serif;
+        font-size: large;
+        margin: 5px;
+        padding-right: 20px;
+        margin-top: 0px;
+        margin-right: 0px; }
+        header div nav ul li a {
+          text-decoration: none;
+          color: #e06599;
+          text-shadow: 0 0 5px #ff006a; }
+
+body {
+  background-color: #D0A5C0; }
+
+main .intro {
+  display: grid;
+  width: 100%;
+  height: calc(100vh + 450px);
+  background-color: #ffaded;
+  color: #000000;
+  text-align: center; }
+  main .intro .cuadrado-uno {
+    max-width: 1000px;
+    width: 100%;
+    height: 350px;
+    background-color: #ff6bdf;
+    border: 1px solid #ff00ea;
+    box-shadow: 0 0 5px #000000;
+    margin-top: 100px; }
+  main .intro .h2-cuadrado-uno {
+    position: absolute;
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 100px;
+    margin: 100px;
+    margin-bottom: 45px;
+    color: #000000;
+    text-shadow: 0 0 5px #ff006a, 0 0 30px #ff006a, 0 0 50px #ff006a;
+    z-index: 1; }
+  main .intro .hero-full {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../img/mesa-fotor-20230722142846.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    main .intro .hero-full .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      main .intro .hero-full .hero img {
+        width: 90%;
+        height: auto;
+        border: 2px solid white;
+        border-radius: 50%;
+        display: inline-block; }
+    main .intro .hero-full .hero-texto {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      main .intro .hero-full .hero-texto .boton-compra {
+        font-family: 'Nunito', sans-serif;
+        text-decoration: none;
+        font-size: large;
+        color: white;
+        background-color: #000000;
+        box-shadow: 0 0 5px white, 0 0 15px white, 0 0 15px white;
+        padding: 10px;
+        border-radius: 15px;
+        order: 2; }
+      main .intro .hero-full .hero-texto .boton-compra:hover {
+        color: #000000;
+        background-color: #ffffff; }
+      main .intro .hero-full .hero-texto h3 {
+        background-color: #92247e;
+        border: 2px solid white;
+        border-radius: 20px;
+        margin-bottom: 50px;
+        font-family: 'Nunito', sans-serif;
+        font-size: large; }
+        main .intro .hero-full .hero-texto h3 span {
+          color: #ffffff;
+          text-shadow: #ff00ea 5px 5px 5px; }
+
+main .servicios {
+  background-color: #D0A5C0; }
+  main .servicios h2 {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    color: #cadbc0;
+    background-color: #2F0A28; }
+  main .servicios .tarjetas-servicios {
+    display: flex;
+    justify-content: space-between;
+    text-align: center; }
+    main .servicios .tarjetas-servicios div {
+      background-color: #8800668f;
+      width: 340px;
+      height: 420px;
+      border: 2px purple solid;
+      text-align: center;
+      border-radius: 25px;
+      margin: 35px; }
+      main .servicios .tarjetas-servicios div img {
+        width: 300px;
+        height: 300px;
+        padding: 0px;
+        border-radius: 200px; }
+      main .servicios .tarjetas-servicios div h3 {
+        font-family: 'Nunito', sans-serif;
+        color: #000000;
+        font-size: 25px;
+        margin: 5px;
+        margin-bottom: 35px; }
+      main .servicios .tarjetas-servicios div a {
+        font-family: 'Nunito', sans-serif;
+        text-decoration: none;
+        font-size: large;
+        color: white;
+        background-color: #000000;
+        box-shadow: 0 0 5px white, 0 0 15px white, 0 0 15px white;
+        padding: 10px;
+        border-radius: 15px;
+        order: 2; }
+      main .servicios .tarjetas-servicios div a:hover {
+        color: #000000;
+        background-color: #ffffff; }
+    main .servicios .tarjetas-servicios div {
+      background-color: #8800668f;
+      width: 340px;
+      height: 420px;
+      border: 2px purple solid;
+      text-align: center;
+      border-radius: 25px;
+      margin: 35px; }
+      main .servicios .tarjetas-servicios div img {
+        width: 300px;
+        height: 300px;
+        padding: 0px;
+        border-radius: 200px; }
+      main .servicios .tarjetas-servicios div h3 {
+        font-family: 'Nunito', sans-serif;
+        color: #000000;
+        font-size: 25px;
+        margin: 5px;
+        margin-bottom: 35px; }
+    main .servicios .tarjetas-servicios div {
+      background-color: #8800668f;
+      width: 340px;
+      height: 420px;
+      border: 2px purple solid;
+      text-align: center;
+      border-radius: 25px;
+      margin: 35px; }
+      main .servicios .tarjetas-servicios div img {
+        width: 300px;
+        height: 300px;
+        padding: 0px;
+        border-radius: 200px; }
+      main .servicios .tarjetas-servicios div h3 {
+        font-family: 'Nunito', sans-serif;
+        color: #000000;
+        font-size: 25px;
+        margin: 5px;
+        margin-bottom: 35px; }
+  main .servicios section .whatsapp {
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    bottom: 60px;
+    right: 25px; }
+
+.footer {
+  margin-top: 40px;
+  background-color: #130410;
+  display: flex;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .footer div a {
+    margin: 50px; }
+    .footer div a img {
+      width: 45px;
+      height: 45px; }
+
+main .intro .h2-cuadrado-uno {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px;
+  margin-left: 17%; }
+  main .intro .h2-cuadrado-uno h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: xx-large;
+    background-color: white;
+    border: 1px solid wheat;
+    padding: 10px;
+    box-shadow: 0 0 10px black; }
+
+main .intro .hero-full .hero-texto h3 {
+  font-size: xx-large; }
+
+/*Fuentes*/
+/*Margenes*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.boton-compra {
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  font-size: large;
+  color: white;
+  background-color: #000000;
+  box-shadow: 0 0 5px white, 0 0 15px white, 0 0 15px white;
+  padding: 10px;
+  border-radius: 15px;
+  order: 2; }
+
+.boton-compra:hover {
+  color: #000000;
+  background-color: #ffffff; }
+
+body main .galeria-titulo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px; }
+  body main .galeria-titulo h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: xx-large;
+    background-color: white;
+    border: 1px solid wheat;
+    padding: 10px;
+    box-shadow: 0 0 10px black; }
+
+body main .galeria {
+  padding: 20px;
+  background-color: #28002c;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 300px;
+  gap: 15px; }
+  body main .galeria .img1 {
+    grid-row: span 2; }
+  body main .galeria .img2 {
+    grid-column: span 2; }
+  body main .galeria .img6 {
+    grid-row: span 2; }
+  body main .galeria .img10 {
+    grid-column: span 2; }
+  body main .galeria .img11 {
+    grid-row: span 2; }
+  body main .galeria div {
+    box-shadow: 0 0 10px white; }
+    body main .galeria div img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+
+body main .trabajadores {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px; }
+  body main .trabajadores h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: xx-large;
+    background-color: white;
+    border: 1px solid wheat;
+    padding: 10px;
+    box-shadow: 0 0 10px black; }
+
+body main .fichas-trabajadores {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column; }
+  body main .fichas-trabajadores .equipo-uno {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(141, 0, 106, 0.562);
+    margin-bottom: 25px;
+    padding-left: 10%;
+    padding-right: 15%; }
+    body main .fichas-trabajadores .equipo-uno img {
+      width: 25%;
+      height: 25%; }
+    body main .fichas-trabajadores .equipo-uno .equipo-uno-texto {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center; }
+      body main .fichas-trabajadores .equipo-uno .equipo-uno-texto h3 {
+        font-family: 'Nunito', sans-serif;
+        font-size: xx-large; }
+      body main .fichas-trabajadores .equipo-uno .equipo-uno-texto p {
+        font-family: 'Nunito', sans-serif;
+        font-size: large; }
+  body main .fichas-trabajadores .equipo-dos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(141, 0, 106, 0.562);
+    margin-bottom: 25px;
+    padding-left: 10%;
+    padding-right: 15%; }
+    body main .fichas-trabajadores .equipo-dos img {
+      width: 25%;
+      height: 25%; }
+    body main .fichas-trabajadores .equipo-dos .equipo-dos-texto {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center; }
+      body main .fichas-trabajadores .equipo-dos .equipo-dos-texto h3 {
+        font-family: 'Nunito', sans-serif;
+        font-size: xx-large; }
+      body main .fichas-trabajadores .equipo-dos .equipo-dos-texto p {
+        font-family: 'Nunito', sans-serif;
+        font-size: large; }
+  body main .fichas-trabajadores .equipo-tres {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(141, 0, 106, 0.562);
+    margin-bottom: 25px;
+    padding-left: 10%;
+    padding-right: 15%; }
+    body main .fichas-trabajadores .equipo-tres img {
+      width: 25%;
+      height: 25%; }
+    body main .fichas-trabajadores .equipo-tres .equipo-tres-texto {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center; }
+      body main .fichas-trabajadores .equipo-tres .equipo-tres-texto h3 {
+        font-family: 'Nunito', sans-serif;
+        font-size: xx-large; }
+      body main .fichas-trabajadores .equipo-tres .equipo-tres-texto p {
+        font-family: 'Nunito', sans-serif;
+        font-size: large; }
+
+body main .quienes-somosh2 {
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px; }
+  body main .quienes-somosh2 h2 {
+    background-color: aliceblue;
+    color: black;
+    padding: 15px;
+    border: 1px solid #8a0077;
+    box-shadow: 0 0 10px black; }
+
+body main .quienes-somos {
+  margin: 20px; }
+  body main .quienes-somos div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: rgba(121, 0, 101, 0.534);
+    margin: 20px; }
+    body main .quienes-somos div img {
+      width: 25%;
+      height: 25%; }
+    body main .quienes-somos div p {
+      font-family: 'Nunito', sans-serif;
+      font-size: xx-large;
+      font-weight: bolder;
+      color: wheat; }
+    body main .quienes-somos div .parrafodos {
+      order: 2;
+      padding: 10px; }
+    body main .quienes-somos div .pimg2 {
+      width: 35%;
+      height: 35%; }
+
+body main .titulo-servicios {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px; }
+  body main .titulo-servicios h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: xx-large;
+    background-color: white;
+    border: 1px solid wheat;
+    padding: 10px;
+    box-shadow: 0 0 10px black; }
+
+body main .servicios .servicios-mi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(161, 0, 121, 0.534);
+  margin-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px; }
+  body main .servicios .servicios-mi .servicios-mi-texto {
+    display: flex;
+    flex-direction: column; }
+    body main .servicios .servicios-mi .servicios-mi-texto h3 {
+      font-family: 'Nunito', sans-serif;
+      color: black; }
+    body main .servicios .servicios-mi .servicios-mi-texto p {
+      font-family: 'Nunito', sans-serif;
+      color: black; }
+  body main .servicios .servicios-mi img {
+    height: 25%;
+    width: 25%; }
+
+body main .servicios .servicios-gb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(161, 0, 121, 0.534);
+  margin-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px; }
+  body main .servicios .servicios-gb .servicios-gb-texto {
+    display: flex;
+    flex-direction: column; }
+    body main .servicios .servicios-gb .servicios-gb-texto h3 {
+      font-family: 'Nunito', sans-serif;
+      color: black; }
+    body main .servicios .servicios-gb .servicios-gb-texto p {
+      font-family: 'Nunito', sans-serif;
+      color: black; }
+  body main .servicios .servicios-gb img {
+    height: 25%;
+    width: 25%; }
+
+body main .servicios .servicios-quince {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(161, 0, 121, 0.534);
+  margin-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px; }
+  body main .servicios .servicios-quince .servicios-quince-texto {
+    display: flex;
+    flex-direction: column; }
+    body main .servicios .servicios-quince .servicios-quince-texto h3 {
+      font-family: 'Nunito', sans-serif;
+      color: black; }
+    body main .servicios .servicios-quince .servicios-quince-texto p {
+      font-family: 'Nunito', sans-serif;
+      color: black; }
+  body main .servicios .servicios-quince img {
+    height: 25%;
+    width: 25%; }
+
+body main .servicios .servicios-custom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(161, 0, 121, 0.534);
+  margin-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px; }
+  body main .servicios .servicios-custom .servicios-custom-texto {
+    display: flex;
+    flex-direction: column; }
+    body main .servicios .servicios-custom .servicios-custom-texto h3 {
+      font-family: 'Nunito', sans-serif;
+      color: black; }
+    body main .servicios .servicios-custom .servicios-custom-texto p {
+      font-family: 'Nunito', sans-serif;
+      color: black; }
+  body main .servicios .servicios-custom img {
+    height: 15%;
+    width: 25%; }
+
+@media screen and (max-width: 1050px) {
+  .tarjetas-servicios {
+    flex-direction: column;
+    align-items: center; } }
+
+@media screen and (max-width: 970px) {
+  .h2-cuadrado-uno {
+    font-size: medium; } }
+
+@media screen and (max-width: 700px) {
+  .cuadro-uno {
+    display: none;
+    height: auto;
+    margin-top: 50px; }
+  .h2-cuadrado-uno {
+    position: static;
+    padding: 20px;
+    margin: 0; }
+  .hero-full {
+    flex-direction: column;
+    align-items: center; }
+  .hero img {
+    order: 2;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    width: 80%;
+    justify-content: center; }
+  .hero {
+    justify-content: center; }
+  .hero-texto {
+    order: 1;
+    text-align: center; }
+  .boton-compra {
+    margin-bottom: 60px; }
+  .intro {
+    height: calc(200vh + 20px); } }
+
+@media screen and (max-width: 485px) {
+  header div nav ul {
+    width: 100%;
+    display: inline-block; } }
+
+@media screen and (max-width: 700px) {
+  .formulario-grid {
+    grid-template-columns: 1fr;
+    /* Cambiamos a una sola columna */ }
+  .formulario-grid label {
+    font-weight: bold; }
+  .formulario-grid select {
+    width: 100%; }
+  .formulario-grid textarea {
+    width: 100%;
+    resize: vertical; }
+  .formulario-grid input[type="submit"],
+  .formulario-grid input[type="reset"] {
+    width: auto;
+    margin-top: 10px; } }
+
+@media screen and (max-width: 950px) {
+  body main .galeria {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 260px; }
+  body main .quienes-somos div img {
+    display: none; } }
+
+@media screen and (max-width: 698px) {
+  main .intro .h2-cuadrado-uno {
+    display: none; } }
+
+@media screen and (max-width: 600px) {
+  main .fichas-trabajadores .equipo-uno {
+    flex-direction: column; }
+  main .fichas-trabajadores .equipo-dos {
+    flex-direction: column; }
+  main .fichas-trabajadores .equipo-tres {
+    flex-direction: column; }
+  main .servicios .servicios-mi img {
+    display: none; }
+  main .servicios .servicios-gb img {
+    display: none; }
+  main .servicios .servicios-quince img {
+    display: none; }
+  main .servicios .servicios-custom img {
+    display: none; }
+  body main .galeria .img1 {
+    display: none; } }
+
+@media screen and (max-width: 380px) {
+  body main .galeria {
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 200px; } }

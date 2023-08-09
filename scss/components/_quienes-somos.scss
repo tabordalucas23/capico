@@ -1,0 +1,51 @@
+body{
+    main{
+
+        .quienes-somosh2{
+            font-family: 'Nunito', sans-serif;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 100px;
+            h2{
+                background-color: aliceblue;
+                color: black;
+                padding: 15px;
+                border: 1px solid rgb(138, 0, 119);
+                box-shadow: 0 0 10px black;
+            }
+        }
+
+        .quienes-somos{
+            margin: 20px;
+            div{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 50px;
+                background-color: rgba(121, 0, 101, 0.534);
+                margin: 20px;
+                img{
+                    width: 25%;
+                    height: 25%;
+                }
+                p{
+                    font-family: 'Nunito', sans-serif;
+                    font-size: xx-large;
+                    font-weight: bolder;
+                    color: wheat;
+                }
+                .parrafodos{
+                    order: 2;
+                    padding: 10px;
+                }
+                .pimg2{
+                    width: 35%;
+                    height: 35%;
+                }
+            }
+        }
+
+
+    }
+}
