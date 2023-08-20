@@ -25,3 +25,47 @@
     color: #000000;
     background-color: #ffffff;
 }
+
+body header nav .dropdown{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 100%;
+        button{
+            color: #ffffff;
+            background-color: #76027a;
+            font-family: 'Nunito', sans-serif;
+            text-decoration: none;
+            
+                ul{
+
+                    li{
+
+                        a{
+                            font-family: 'Nunito', sans-serif;
+                            text-decoration: none;
+                            display: flex;
+                            justify-content: center;
+                        }
+                    }
+                }
+            
+        }
+}
+main{
+
+    .whatsapp-sec{
+
+        .whatsapp{
+            img{
+                width: 80px;
+                height: 80px;
+                position: fixed;
+                bottom: 60px;
+                right: 25px;
+            }
+        }
+
+    }
+
+}

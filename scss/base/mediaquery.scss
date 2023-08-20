@@ -128,11 +128,30 @@ main .intro .h2-cuadrado-uno{
         body main .galeria .img1{
             display: none;
         }
+
     
     }
-    @media screen and (max-width: 380px){
+    @media screen and (max-width: 400px){
         body main .galeria{
             grid-template-columns: repeat(1, 1fr);
             grid-auto-rows: 200px;
         }
+
+    main .formulario .formulario-grid{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+    }
+    @media screen and (max-width: 444px){
+
+
+        .footer div a{
+            margin: 25px;
+
+        }
+        .footer div a img{
+            width: 35px;
+            height: 35px;
+        }
+
     }
